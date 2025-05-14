@@ -28,3 +28,5 @@ jobs:
         author_email: "github-actions@github.com"
         message: "Update resume.pdf after regeneration [skip ci]"
         add: "output/resume.pdf"
+        push: true
+        push-token: ${{ secrets.GITHUB_TOKEN }}
