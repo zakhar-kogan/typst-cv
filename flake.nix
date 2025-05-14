@@ -17,6 +17,7 @@
             typstyle
             gnumake
             entr
+            git
           ];
 
           shellHook = ''

@@ -1,0 +1,22 @@
+# Credits for the base: https://github.com/cammellos/typst-blue-header-cv/blob/main/.github/workflows/main.yml
+
+name: Building the CV
+
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: "Setup env"
+      uses: JRMurr/direnv-nix-action@v4.1.0
+
+    - name: use typst
+      run: typst --version
+      shell: bash
+
+    - name: Building the CV
+      run: make
+      shell: bash
