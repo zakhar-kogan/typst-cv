@@ -33,10 +33,10 @@ jobs:
 
     # Commit and push all changed files.
     - name: Committing updated resume
-      # Only run on main branch push (e.g. after pull request merge).
       if: github.event_name == 'push'
       run: |
         git config --global user.name "Github Actions"
         git config --global user.email "github-actions@users.noreply.github.com"
-        git commit -a -m "Updating resume.pdf after regeneration [skip ci]"
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+        git commit -a -m "Updating resume.pdf after regeneration [skip ci]" || echo "No changes to commit"
         git push
