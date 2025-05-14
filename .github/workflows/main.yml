@@ -21,12 +21,22 @@ jobs:
       run: make
       shell: bash
 
-    - name: Commit updated resume.pdf
-      uses: EndBug/add-and-commit@v7
-      with:
-        author_name: "github-actions"
-        author_email: "github-actions@github.com"
-        message: "Update resume.pdf after regeneration [skip ci]"
-        add: "output/resume.pdf"
-        push: true
-        push-token: ${{ secrets.GITHUB_TOKEN }}
+    # - name: Commit updated resume.pdf
+    #   uses: EndBug/add-and-commit@v7
+    #   with:
+    #     author_name: "github-actions"
+    #     author_email: "github-actions@github.com"
+    #     message: "Update resume.pdf after regeneration [skip ci]"
+    #     add: "output/resume.pdf"
+    #     push: true
+    #     push-token: ${{ secrets.GITHUB_TOKEN }}
+
+    # Commit and push all changed files.
+    - name: Commit updated resume
+      # Only run on main branch push (e.g. after pull request merge).
+      if: github.event_name == 'push'
+      run: |
+        git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
+        git config --global user.email "github-cicd@users.noreply.github.com"
+        git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
+        git push
