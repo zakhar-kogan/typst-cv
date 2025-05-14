@@ -1,7 +1,6 @@
 # typst-cv
 A frankentake on CVs using Typst
 
-// ...existing code...
 ## Acknowledgments
 
 - https://github.com/cammellos/typst-blue-header-cv
