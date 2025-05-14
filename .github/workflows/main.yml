@@ -20,3 +20,9 @@ jobs:
     - name: Building the CV
       run: make
       shell: bash
+
+    - uses: actions/upload-artifact@main
+      with:
+        name: Resume
+        path: resume.pdf
+        if-no-files-found: error
