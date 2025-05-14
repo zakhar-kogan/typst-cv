@@ -24,5 +24,6 @@ jobs:
     - uses: actions/upload-artifact@main
       with:
         name: Resume
-        path: resume.pdf
+        path: output/resume.pdf
+        overwrite: true
         if-no-files-found: error
