@@ -1,5 +1,8 @@
 # Credits for the base: https://github.com/cammellos/typst-blue-header-cv/blob/main/.github/workflows/main.yml
 
+permissions:
+  contents: write
+  
 name: Building the CV
 
 on: push
