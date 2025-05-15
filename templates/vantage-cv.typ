@@ -1,6 +1,10 @@
 #let primary_colour = rgb("#3730a3")
 #let link_colour = rgb("#12348e")
 
+set page(
+  margin: (x: 1.2cm, y: 1.2cm),
+)
+
 #let icon(name, shift: 1.5pt) = {
   box(
     baseline: shift,
@@ -95,9 +99,7 @@
     author: name,
   )
   set text(9.8pt, font: "PT Sans")
-  set page(
-    margin: (x: 1.2cm, y: 1.2cm),
-  )
+
 
   show heading.where(level: 1) : it => text(16pt,[#{it.body} #v(1pt)])
 

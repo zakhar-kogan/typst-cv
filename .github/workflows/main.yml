@@ -24,9 +24,6 @@ jobs:
       run: make
       shell: bash
     
-    - name: Generate the HTML
-      run: make html
-      shell: bash
     - name: Committing updated resume
       if: github.event_name == 'push'
       run: |
