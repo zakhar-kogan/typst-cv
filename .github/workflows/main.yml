@@ -7,34 +7,26 @@ name: Building the CV
 
 on: push
 jobs:
-  build:
+  build-cv:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
-    - name: "Setup env"
-      uses: JRMurr/direnv-nix-action@main
+    - name: Setup Typst
+      uses: typst-community/setup-typst@v4
 
-    - name: use typst
+    - name: Use typst
       run: typst --version
       shell: bash
 
     - name: Building the CV
       run: make
       shell: bash
-
-    # - name: Commit updated resume.pdf
-    #   uses: EndBug/add-and-commit@v7
-    #   with:
-    #     author_name: "github-actions"
-    #     author_email: "github-actions@github.com"
-    #     message: "Update resume.pdf after regeneration [skip ci]"
-    #     add: "output/resume.pdf"
-    #     push: true
-    #     push-token: ${{ secrets.GITHUB_TOKEN }}
-
-    # Commit and push all changed files.
+    
+    - name: Generate the HTML
+      run: make html
+      shell: bash
     - name: Committing updated resume
       if: github.event_name == 'push'
       run: |
