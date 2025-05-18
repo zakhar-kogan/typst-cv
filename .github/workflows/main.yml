@@ -21,7 +21,7 @@ jobs:
       shell: bash
 
     - name: Building the CV
-      run: make
+      run: make build
       shell: bash
     
     - name: Committing updated resume

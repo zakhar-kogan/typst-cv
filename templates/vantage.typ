@@ -1,5 +1,7 @@
 #import "vantage-cv.typ": vantage, styled-link, term, skill
-#let configuration = yaml("../resumes/configuration.yaml")
+
+#let filename = sys.inputs.at("filename", default: "../resumes/resume.yaml")
+#let configuration = yaml(filename)
 
 #vantage(
   name: configuration.contacts.name,

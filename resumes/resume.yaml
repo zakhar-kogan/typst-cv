@@ -149,14 +149,14 @@ education:
 
 technical_expertise:
   - name: Python
-    level: 4
+    level: 7
   - name: Docker
-    level: 3
+    level: 7
   - name: SQL
-    level: 4
+    level: 6
   - name: PowerBI
-    level: 3
-  - name: Go
+    level: 5
+  - name: 
     level: 4
   - name: Subversion
     level: 5
@@ -180,15 +180,16 @@ skills:
   - FastAPI
   - Docker-compose
   - Excel
-  - 
 
 languages:
   - name: English
-    level: 5
+    level: 8
   - name: Russian
-    level: 5
+    level: 10
   - name: Hebrew
-    level: 2
+    level: 4
+  - name: French
+    level: 3
   
 
 methodology:

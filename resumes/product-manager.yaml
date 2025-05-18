@@ -1,0 +1,130 @@
+contacts:
+  name: Zach Cohen
+  title: Product Manager Resume
+  email: zakhar@teleogenic.com
+  address: "Haifa, Israel"
+  location: Israel
+  linkedin:
+    url: https://www.linkedin.com/in/zakhar-kogan/
+    displayText: zakhar-kogan
+  github:
+    url: https://github.com/zakhar-kogan/
+    displayText: "@zakhar-kogan"
+  website:
+    url: https://teleogenic.com
+    displayText: teleogenic.com
+
+position: Product Manager
+tagline: Data-driven Product Manager with expertise in strategic planning, market analysis, and end-to-end product development.
+
+jobs:
+  - position: Strategy Lead
+    company:
+      name: Deep Foundation
+      link: ""
+    product:
+      name: ""
+      link: ""
+    description:
+      - Created whitepapers and pitch decks to articulate strategic vision for new products.
+      - Developed market and product memos that informed MVP development and go-to-market strategies.
+      - Evaluated market hypotheses and steered the team through multiple product iterations.
+    from: "2022 Oct."
+    to: "2023 Oct."
+    tags:
+      - Strategic Planning
+      - Market Analysis
+      - Product Management
+    location: Remote
+
+  - position: R&D Lead & Co-founder
+    company:
+      name: Neuron
+      link: ""
+    product:
+      name: ""
+      link: ""
+    description:
+      - Secured $200k in pre-seed funding to support product innovation.
+      - Led a cross-functional team in data-driven product development, math modeling, and visualization.
+      - Orchestrated a targeted content strategy that increased audience engagement significantly.
+    from: "2021 Apr."
+    to: "2023 Sep."
+    tags:
+      - Product Development
+      - Team Leadership
+      - Data-Driven Strategy
+    location: Remote
+
+  - position: Business Analyst / Consultant
+    company:
+      name: Teamidea
+      link: ""
+    product:
+      name: ""
+      link: ""
+    description:
+      - Mapped and optimized business processes across multiple projects, laying the groundwork for product improvements.
+      - Developed business cases and pitch presentations that supported strategic decision-making.
+      - Conducted market research and competitive analysis to identify product opportunities.
+    from: "2017 Jan."
+    to: "2020 Jan."
+    tags:
+      - Process Optimization
+      - Consulting
+      - Business Strategy
+    location: Moscow, Russia
+
+objective: >
+  Leverage my multidisciplinary background in strategy, research, and product development to drive innovative, customer-focused solutions as a Product Manager.
+
+education:
+  - place:
+      name: NUST "MISIS"
+      link: "https://misis.ru"
+    degree: MSc
+    major: Engineering
+    track: "" # Added to match structure
+    marks: 3.94
+    location: Haifa, Israel
+
+technical_expertise: [] # Added to match structure
+
+skills:
+  - Product Management
+  - Strategic Planning
+  - Market Analysis
+  - Team Leadership
+  - Data Analysis
+  - Financial Modeling
+  - Agile Methodologies
+
+languages:
+  - name: English
+    level: 9 # Note: Original structure had integer levels, this uses string
+  - name: Russian
+    level: 10  # Note: Original structure had integer levels, this uses string
+  - name: Hebrew
+    level: 4 # Note: Original structure had integer levels, this uses string
+  - name: French
+    level: 4 # Note: Original structure had integer levels, this uses string
+
+methodology: [] # Added to match structure
+
+tools:
+  - GitHub
+  - Jira/Linear
+  - Slack
+  - Adobe Suite
+  - Postman
+  - Pitchbook
+  - PowerBI
+  - Excel
+
+achievements:
+  - name: Successful Product Launches
+    description: Led multiple initiatives from concept to market launch, achieving measurable growth and customer engagement.
+  - name: Cross-Functional Team Leadership
+    description: Effectively managed teams across R&D, marketing, and business analytics to deliver innovative product solutions.
+  - name: Industry Contributions
+    description: Authored whitepapers and strategic documents that influenced market direction and

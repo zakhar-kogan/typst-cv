@@ -64,7 +64,7 @@ set page(
 
     box(rect(
       height: 0.3em, 
-      width: 1.5em, 
+      width: 0.75em, 
       stroke: strokeColor,
       fill: colour,
       radius: radiusValue
