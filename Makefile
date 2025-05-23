@@ -23,11 +23,9 @@ build:
 		echo "No YAML files to compile." \
 	)
 
-# --- Utility and Other Targets ---
-
 # Watch for changes in Typst or YAML files and rebuild all PDFs
 watch:
-	$(find . -name '*.typ' -o -name '*.yaml' | entr -r make build)
+	find . -name '*.typ' -o -name '*.yaml' | entr -r make build INPUT_FILE=$(INPUT_FILE)
 
 # Target to display discovered input and output files (for debugging)
 output_input:

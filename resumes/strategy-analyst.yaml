@@ -14,31 +14,14 @@ contacts:
     url: https://teleogenic.com
     displayText: teleogenic.com
 
-position: Strategic Analyst
-tagline: Strategic analyst with 4+ years in data-driven decision-making and research, complemented by hands-on experience in venture capital and startup environments.
+position: Strategy Analyst
+tagline: Strategy analyst with 4+ years in data-driven decision-making and research, complemented by hands-on experience in venture capital and startup environments.
 
-tagline: Data-driven professional with 3+ years of experience in data analysis, machine learning, and AI research
+# tagline: Data-driven professional with 3+ years of experience in data analysis, machine learning, and AI research
 
-tagline: Expertise in building data pipelines, applying machine learning algorithms, and driving data-informed decision-making.
+# tagline: Expertise in building data pipelines, applying machine learning algorithms, and driving data-informed decision-making.
       
 jobs:
-  - position: Research Assistant
-    company:
-      name: Technion
-      link: ""
-    product:
-      name: Automated planning
-      link: https://dds.technion.ac.il/people/academic-staff/erez-karpas/
-    description:
-      - Expanded the social laws' formalism with conditional effects
-      - Contributed to LLM selection, fine-tuning, and inference
-    from: "2023 Sep."
-    to: "2024 Sep."
-    tags:
-      - Automated Planning
-      - LLM Research
-      - Social Laws
-    location: Haifa, Israel
   - position: Associate / Data analyst
     company:
       name: Lemma Capital
@@ -57,25 +40,7 @@ jobs:
       - Venture Capital
       - Automation
     location: Remote
-  - position: Machine Learning Engineer
-    company:
-      name: MoovingON
-      link: ""
-    product:
-      name: Internship
-      link: ""
-    description:
-      - Improved incident assessment speed by 70% with an NLP module (90% accuracy)
-      - Managed MLOps (RabbitMQ, FastAPI, and Docker)
-    from: "2021 Dec."
-    to: "2022 Apr."
-    tags:
-      - Machine Learning
-      - NLP
-      - FastAPI
-      - Docker
-    location: Israel
-  - position: Strategy Lead
+  - position: Strategy Analyst
     company:
       name: Deep Foundation
       link: ""
@@ -83,7 +48,7 @@ jobs:
       name: "RDF database and middleware"
       link: ""
     description:
-      - Created whitepapers and pitch decks to articulate strategic vision
+      - Created whitepapers and pitch decks
       - Prepared market and product memos to steer the team
       - Evaluated market hypotheses leading three MVP projects
     from: "2022 Oct."
@@ -93,7 +58,7 @@ jobs:
       - Market Analysis
       - Product Management
     location: Remote
-  - position: R&D Lead & Co-founder
+  - position: Co-founder
     company:
       name: Neuron
       link: ""
@@ -101,9 +66,10 @@ jobs:
       name: "Web3 yield-optimized vanilla options"
       link: ""
     description:
+      - Launched Web3 options platform, achieving $700K TVL on start
       - Secured $200k in pre-seed funding
       - Led a team of 4 in data-driven product development, incl. math modeling and visualization
-      - Grew Twitter audience from 200 to 7,000 (3,400% increase) in two months by crafting and executing a targeted science-content strategy
+      - Grew Twitter audience from 200 to 7,000 (3,400% increase) in two months
     from: "2021 Apr."
     to: "2023 Sep."
     tags:
@@ -112,6 +78,7 @@ jobs:
       - Data Modeling
       - Fundraising
     location: Remote
+
   - position: Business Analyst / Consultant
     company:
       name: Teamidea
@@ -120,10 +87,8 @@ jobs:
       name: "Early career (Consulting & Research)"
       link: ""
     description:
-      - Mapped and optimized business processes across multiple projects
       - Supported the remote launch of a MARS plant during COVID
       - Developed business cases and pitch materials for 10+ projects
-      - Conducted market research and competitive analysis
       - Developed face recognition, supply optimization (voice-based) systems in Python
       - Prepared & presented 30+ business cases and pitch decks
     from: "2017 Jan."
@@ -133,8 +98,6 @@ jobs:
       - Process Optimization
       - Consulting
     location: Moscow, Russia
-
-objective: Seeking to advance my skills as a data scientist with a company that values innovation and creativity.
 
 education:
   - place:
@@ -146,40 +109,28 @@ education:
     marks: 3.94
     location: Haifa, Israel
 
-
 technical_expertise:
-  - name: Python
-    level: 7
-  - name: Docker
-    level: 7
   - name: SQL
     level: 6
+  - name: Python
+    level: 7
   - name: PowerBI
     level: 5
-  - name: 
+  - name: Tableau
     level: 4
-  - name: Subversion
-    level: 5
 
 skills:
+  - Strategic Planning
   - VC & Market Research
+  - Data Analysis
+  - Financial Modeling
   - Valuation
   - Due Diligence
-  - Strategic Planning
-  - Financial Modeling
-  - Python
-  - SQL
-  - Data Analysis
-  - Microservices
-  - Systems Engineering
   - Data Visualization
   - ETL
+  - Python
+  - SQL
   - Pitchbook
-  - PowerBI
-  - RabbitMQ
-  - FastAPI
-  - Docker-compose
-  - Excel
 
 languages:
   - name: English
@@ -193,23 +144,24 @@ languages:
   
 
 methodology:
-  - Lean
-  - Kanban
-  - Design Thinking
-  - Test-Driven Development
   - Strategic Planning
+  - Lean
+  - Design Thinking
+  - Kanban
 
 tools:
+  - Excel
+  - PowerBI
+  - Pitchbook
+  - Slack
   - GitHub
   - Jira/Linear
-  - Slack
-  - Adobe XD
-  - Postman
+  - Adobe Suite
 
 achievements:
   - name: Volunteering
     description: Team @ Maker Faire (Moscow, 2018-2019)
   - name: Hobbies
-    description: Popular science (blogging + 15x4 talks, ), Hiking, 
+    description: Popular science (blogging + 15x4 talks), Hiking, Biochemistry, Agtech, Climatech, Alt Protein 
   - name: Open Source
     description: LiteLLM, FFMemes, Inference pipelines (incl. 90% cold start optimization)

@@ -91,6 +91,7 @@ set page(
   position: "",
   links: (),
   tagline: [],
+  objective: [],
   leftSide,
   rightSide
 ) = {
@@ -131,7 +132,15 @@ set page(
   v(0pt)
   findMe(links)
 
-  tagline
+  if tagline != [] {
+    v(0.5em)
+    emph(tagline)
+  }
+
+  if objective != [] {
+    v(0.5em)
+    text(objective)
+  }
 
   grid(
     columns: (7fr, 4fr),

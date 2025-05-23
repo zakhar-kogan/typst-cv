@@ -1,6 +1,6 @@
 contacts:
   name: Zach Cohen
-  title: Default CV
+  title: Data Scientist
   email: zakhar@teleogenic.com
   address: "Haifa, Israel"
   location: Israel
@@ -14,17 +14,8 @@ contacts:
     url: https://teleogenic.com
     displayText: teleogenic.com
 
-position: Strategic Analyst
-tagline: Strategic analyst with 4+ years in data-driven decision-making and research, complemented by hands-on experience in venture capital and startup environments.
-
-position: Product Manager
-tagline: Data-driven professional with 3+ years of experience in data analysis, machine learning, and AI research
-
 position: Data Scientist
-tagline: Expertise in building data pipelines, applying machine learning algorithms, and driving data-informed decision-making.
-
-position: VC Analyst
-tagline: Data-driven professional with 2+ years of experience in venture capital, market research, and financial analysis.
+tagline: Eager to continue career with data-driven product development and research. Expertise in building pipelines and driving data-informed decision-making.
 
 jobs:
   - position: Research Assistant
@@ -81,24 +72,6 @@ jobs:
       - FastAPI
       - Docker
     location: Israel
-  - position: Strategy Lead
-    company:
-      name: Deep Foundation
-      link: ""
-    product:
-      name: "RDF database and middleware"
-      link: ""
-    description:
-      - Created whitepapers and pitch decks
-      - Prepared market and product memos to steer the team
-      - Evaluated market hypotheses leading three MVP projects
-    from: "2022 Oct."
-    to: "2023 Oct."
-    tags:
-      - Strategy
-      - Market Analysis
-      - Product Management
-    location: Remote
   - position: R&D Lead & Co-founder
     company:
       name: Neuron
@@ -118,27 +91,6 @@ jobs:
       - Data Modeling
       - Fundraising
     location: Remote
-  - position: Business Analyst / Consultant
-    company:
-      name: Teamidea
-      link: ""
-    product:
-      name: "Early career (Consulting & Research)"
-      link: ""
-    description:
-      - Mapped and optimized business processes across multiple projects
-      - Supported the remote launch of a MARS plant during COVID
-      - Developed business cases and pitch materials for 10+ projects
-      - Conducted market research and competitive analysis
-      - Developed face recognition, supply optimization (voice-based) systems in Python
-      - Prepared & presented 30+ business cases and pitch decks
-    from: "2017 Jan."
-    to: "2020 Jan."
-    tags:
-      - Business Analysis
-      - Process Optimization
-      - Consulting
-    location: Moscow, Russia
 
 education:
   - place:
@@ -153,31 +105,26 @@ education:
 technical_expertise:
   - name: Python
     level: 7
-  - name: Docker
-    level: 7
   - name: SQL
     level: 6
+  - name: Docker
+    level: 7
   - name: PowerBI
     level: 5
   - name: Tableau
     level: 4
-  - name: Subversion
-    level: 5
 
 skills:
-  - VC & Market Research
-  - Valuation
-  - Due Diligence
-  - Strategic Planning
-  - Financial Modeling
-  - Python
-  - SQL
   - Data Analysis
-  - Microservices
-  - Systems Engineering
+  - Machine Learning
   - Data Visualization
   - ETL
-  - Pitchbook
+  - Systems Engineering
+  - Microservices
+  - Strategic Planning
+  - System Design
+  - API & Message Queues
+  - Containerization
 
 languages:
   - name: English
@@ -190,29 +137,23 @@ languages:
     level: 3
 
 methodology:
-  - Lean
-  - Kanban
-  - Design Thinking
   - Test-Driven Development
+  - Lean
+  - Design Thinking
   - Strategic Planning
 
 tools:
   - GitHub
+  - FastAPI
+  - RabbitMQ
+  - Postman
   - Jira/Linear
   - Slack
-  - Adobe Suite
-  - Postman
-  - Pitchbook
-  - PowerBI
-  - RabbitMQ
-  - FastAPI
-  - Docker-compose
-  - Excel
 
 achievements:
-  - name: Volunteering
-    description: Team @ Maker Faire (Moscow, 2018-2019)
-  - name: Hobbies
-    description: Popular science (blogging + 15x4 talks), Hiking, Biochemistry, Agtech, Climatech, Alt Protein 
   - name: Open Source
     description: LiteLLM, FFMemes, Inference pipelines (incl. 90% cold start optimization)
+  - name: Hobbies
+    description: Popular science (blogging + 15x4 talks), Hiking, Biochemistry, Agtech, Climatech, Alt Protein 
+  - name: Volunteering
+    description: Team @ Maker Faire (Moscow, 2018-2019)

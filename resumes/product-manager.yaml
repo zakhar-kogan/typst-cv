@@ -1,6 +1,6 @@
 contacts:
   name: Zach Cohen
-  title: Product Manager Resume
+  title: Product Manager
   email: zakhar@teleogenic.com
   address: "Haifa, Israel"
   location: Israel
@@ -18,6 +18,24 @@ position: Product Manager
 tagline: Data-driven Product Manager with expertise in strategic planning, market analysis, and end-to-end product development.
 
 jobs:
+
+  - position: Gap (Research Assistant)
+    company:
+      name: Technion
+      link: ""
+    product:
+      name: Automated planning
+      link: https://dds.technion.ac.il/people/academic-staff/erez-karpas/
+    description:
+      - Expanded the social laws' formalism with conditional effects
+      - Contributed to LLM selection, fine-tuning, and inference
+    from: "2023 Sep."
+    to: "2024 Sep."
+    tags:
+      - Automated Planning
+      - LLM Research
+      - Social Laws
+    location: Haifa
   - position: Strategy Lead
     company:
       name: Deep Foundation
@@ -26,9 +44,9 @@ jobs:
       name: ""
       link: ""
     description:
-      - Created whitepapers and pitch decks to articulate strategic vision for new products.
-      - Developed market and product memos that informed MVP development and go-to-market strategies.
-      - Evaluated market hypotheses and steered the team through multiple product iterations.
+      - Created whitepapers and pitch decks to articulate strategic vision for new products
+      - Developed market and product memos that informed MVP development and go-to-market strategies
+      - Evaluated market hypotheses and steered the team through multiple product iterations
     from: "2022 Oct."
     to: "2023 Oct."
     tags:
@@ -37,17 +55,18 @@ jobs:
       - Product Management
     location: Remote
 
-  - position: R&D Lead & Co-founder
+  - position: Co-founder
     company:
       name: Neuron
       link: ""
     product:
-      name: ""
+      name: "Web3 yield-optimized vanilla options"
       link: ""
     description:
-      - Secured $200k in pre-seed funding to support product innovation.
-      - Led a cross-functional team in data-driven product development, math modeling, and visualization.
-      - Orchestrated a targeted content strategy that increased audience engagement significantly.
+      - Launched Web3 options platform, achieving $700K TVL
+      - Co-led a team of 4 engineers developing a data-driven Web3 product (vanilla options)
+      - Secured $200k pre-seed by crafting data-storytelling deck and leading VC pitches
+      - Achieved 3000%+ (200 ➟ 7,000) Twitter growth in 2 mo with science-related content
     from: "2021 Apr."
     to: "2023 Sep."
     tags:
@@ -64,9 +83,9 @@ jobs:
       name: ""
       link: ""
     description:
-      - Mapped and optimized business processes across multiple projects, laying the groundwork for product improvements.
-      - Developed business cases and pitch presentations that supported strategic decision-making.
-      - Conducted market research and competitive analysis to identify product opportunities.
+      - Mapped and optimized business processes across multiple projects
+      - Developed face recognition, supply optimization (voice-based) systems in Python
+      - Prepared & presented 30+ business cases and pitch decks
     from: "2017 Jan."
     to: "2020 Jan."
     tags:
@@ -74,9 +93,6 @@ jobs:
       - Consulting
       - Business Strategy
     location: Moscow, Russia
-
-objective: >
-  Leverage my multidisciplinary background in strategy, research, and product development to drive innovative, customer-focused solutions as a Product Manager.
 
 education:
   - place:
@@ -88,43 +104,57 @@ education:
     marks: 3.94
     location: Haifa, Israel
 
-technical_expertise: [] # Added to match structure
+technical_expertise:
+  - name: SQL
+    level: 6
+  - name: Python
+    level: 7
+  - name: Docker
+    level: 7
+  - name: PowerBI
+    level: 5
 
 skills:
-  - Product Management
   - Strategic Planning
-  - Market Analysis
-  - Team Leadership
-  - Data Analysis
-  - Financial Modeling
-  - Agile Methodologies
+  - Market & VC Research
+  - Data Analysis & Visualization
+  - ETL Process Design
+  - System Design
+  - API Development
+  - Message Queues
+  - Containerization & Orchestration
+  - Pitchbook
 
 languages:
   - name: English
-    level: 9 # Note: Original structure had integer levels, this uses string
+    level: 8
   - name: Russian
-    level: 10  # Note: Original structure had integer levels, this uses string
+    level: 10
   - name: Hebrew
-    level: 4 # Note: Original structure had integer levels, this uses string
+    level: 4
   - name: French
-    level: 4 # Note: Original structure had integer levels, this uses string
+    level: 3
+  
 
-methodology: [] # Added to match structure
+methodology:
+  - Agile
+  - Lean
+  - Kanban
+  - Design Thinking
+  - TDD, BDD
 
 tools:
   - GitHub
   - Jira/Linear
   - Slack
-  - Adobe Suite
+  - Figma
   - Postman
-  - Pitchbook
-  - PowerBI
-  - Excel
 
 achievements:
-  - name: Successful Product Launches
-    description: Led multiple initiatives from concept to market launch, achieving measurable growth and customer engagement.
-  - name: Cross-Functional Team Leadership
-    description: Effectively managed teams across R&D, marketing, and business analytics to deliver innovative product solutions.
-  - name: Industry Contributions
-    description: Authored whitepapers and strategic documents that influenced market direction and
+  - name: Volunteering
+    description: Team @ Maker Faire (Moscow, 2018-2019)
+  - name: Hobbies
+    description: Popular science (blogging + 15x4 talks), Hiking, Biochemistry, Agtech, Climatech, Alt Protein 
+  - name: Open Source
+    description: LiteLLM, FFMemes
+    # Inference pipelines (incl. 90% cold start optimization)

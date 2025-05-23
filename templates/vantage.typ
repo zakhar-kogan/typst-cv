@@ -14,6 +14,7 @@
     // (name: "location", link: "", display: configuration.contacts.address)
   ),
   tagline: (configuration.tagline),
+  // objective: (configuration.objective),
   [
 
     == Experience
@@ -30,9 +31,27 @@
     
   ],
   [
-    == Objective
+    // == Objective
 
-    #configuration.objective
+    // #configuration.objective
+
+    == Technical Expertise
+
+    #for expertise in configuration.technical_expertise [
+      #skill(expertise.name, expertise.level)
+    ]
+
+    == Skills
+
+    #for skill in configuration.skills [
+      • #skill
+    ]
+
+    == Languages
+
+    #for language in configuration.languages [
+      #skill(language.name, language.level)
+    ]
 
 
     == Education
@@ -50,29 +69,11 @@
       (GPA: #edu.marks/4)
 
     ]
-
-    == Technical Expertise
-
-    #for expertise in configuration.technical_expertise [
-      #skill(expertise.name, expertise.level)
-    ]
-
-    == Skills/Exposure
-
-    #for skill in configuration.skills [
-      • #skill
-    ]
-
-    == Languages
-
-    #for language in configuration.languages [
-      #skill(language.name, language.level)
-    ]
     
-    // == Methodology/Approach
-    // #for method in configuration.methodology [
-    //   • #method
-    // ]
+    == Methodology
+    #for method in configuration.methodology [
+      • #method
+    ]
     
     // == Tools
     // #for tool in configuration.tools [
