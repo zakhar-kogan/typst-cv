@@ -1,0 +1,161 @@
+contacts:
+  name: Zach Cohen
+  title: Data Analyst
+  email: zakhar@teleogenic.com
+  address: "Haifa, Israel"
+  location: Israel
+  linkedin:
+    url: https://www.linkedin.com/in/zakhar-kogan/
+    displayText: zakhar-kogan
+  github:
+    url: https://github.com/zakhar-kogan/
+    displayText: "@zakhar-kogan"
+  website:
+    url: https://teleogenic.com
+    displayText: teleogenic.com
+
+position: Data Analyst
+tagline: Eager to continue career with data-driven product development and research. Expertise in building pipelines and driving data-informed decision-making.
+
+jobs:
+  - position: Research Assistant
+    company:
+      name: Technion
+      link: ""
+    product:
+      name: Automated planning
+      link: https://dds.technion.ac.il/people/academic-staff/erez-karpas/
+    description:
+      - Expanded the social laws' formalism with conditional effects
+      - Contributed to LLM selection, fine-tuning, and inference
+    from: "2023 Sep."
+    to: "2024 Sep."
+    tags:
+      - Automated Planning
+      - LLM Research
+      - Social Laws
+    location: Haifa, Israel
+  - position: Associate / Data analyst
+    company:
+      name: Lemma Capital
+      link: ""
+    product:
+      name: PE fund (late stage)
+      link: ""
+    description:
+      - Automated gathering of >1000 companies' data from multiple sources
+      - Developed a PE data to KG converter
+      - Participated in sourcing for 3 deals, and outreach
+    from: "2024 Jan."
+    to: "2024 Aug."
+    tags:
+      - Data Analysis
+      - Venture Capital
+      - Automation
+    location: Remote
+  - position: Machine Learning Engineer
+    company:
+      name: MoovingON
+      link: ""
+    product:
+      name: Internship
+      link: ""
+    description:
+      - Improved incident assessment speed by 70% with an NLP module (90% accuracy)
+      - Authored MLOps pipeline (RabbitMQ, FastAPI, Docker-compose)
+      - Presented the project to the team, as well as "How ML works" with positive feedback
+    from: "2021 Dec."
+    to: "2022 Apr."
+    tags:
+      - Machine Learning
+      - NLP
+      - FastAPI
+      - Docker
+    location: Israel
+  - position: R&D Lead & Co-founder
+    company:
+      name: Neuron
+      link: ""
+    product:
+      name: "Web3 yield-optimized vanilla options"
+      link: ""
+    description:
+      - Secured $200k in pre-seed funding
+      - Led a team of 4 in data-driven product development, incl. math modeling and visualization
+      - Grew Twitter audience from 200 to 7,000 (3,400% increase) in two months by crafting and executing a targeted science-content strategy
+    from: "2021 Apr."
+    to: "2023 Sep."
+    tags:
+      - R&D
+      - Product Development
+      - Data Modeling
+      - Fundraising
+    location: Remote
+
+education:
+  - place:
+      name: NUST "MISIS"
+      link: "https://misis.ru"
+    degree: "MSc"
+    major: Engineering
+    track: Engineering
+    marks: 3.94
+    location: Haifa, Israel
+
+technical_expertise:
+  - name: Python
+    level: 6
+  - name: SQL
+    level: 6
+  - name: Docker
+    level: 7
+  - name: PowerBI
+    level: 5
+  - name: Tableau
+    level: 4
+  - name: Excel
+    level: 8
+
+skills:
+  - Data Analysis
+  - Machine Learning
+  - Data Visualization
+  - ETL
+  - Systems Engineering
+  - Microservices
+  - Strategic Planning
+  - System Design
+  - API & Message Queues
+  - Containerization
+
+languages:
+  - name: English
+    level: 8
+  - name: Russian
+    level: 10
+  - name: Hebrew
+    level: 4
+  - name: French
+    level: 3
+
+methodology:
+  - Test-Driven Development
+  - Lean
+  - Design Thinking
+  - Strategic Planning
+
+tools:
+  - GitHub
+  - FastAPI
+  - RabbitMQ
+  - Postman
+  - Jira/Linear
+  - Slack
+
+achievements:
+  - name: Open Source
+    description: LiteLLM, FFMemes, Inference pipelines (incl. 90% cold start optimization)
+  - name: Hobbies
+    description: Popular science (blogging + 15x4 talks), Hiking, Biochemistry, Agtech, Climatech, Alt Protein 
+  - name: Volunteering
+    description: Team @ Maker Faire (Moscow, 2018-2019)
