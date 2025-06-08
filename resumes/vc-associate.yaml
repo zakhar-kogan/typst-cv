@@ -1,0 +1,169 @@
+contacts:
+  name: Zach Cohen
+  title: Default CV
+  email: zakhar@teleogenic.com
+  address: "Haifa, Israel"
+  location: Israel
+  linkedin:
+    url: https://www.linkedin.com/in/zakhar-kogan/
+    displayText: zakhar-kogan
+  github:
+    url: https://github.com/zakhar-kogan/
+    displayText: "@zakhar-kogan"
+  website:
+    url: https://teleogenic.com
+    displayText: teleogenic.com
+
+position: VC Associate/Analyst
+tagline: VC analyst with 4+ years in data-driven decision-making and research, complemented by hands-on experience in venture capital and startup environments.
+
+# tagline: Data-driven professional with 3+ years of experience in data analysis, machine learning, and AI research
+
+# tagline: Expertise in building data pipelines, applying machine learning algorithms, and driving data-informed decision-making.
+      
+jobs:
+  - position: Associate / Data analyst
+    company:
+      name: Lemma Capital
+      link: ""
+    product:
+      name: PE fund (late stage)
+      link: ""
+    description:
+      - Automated gathering of >1000 companies' data from multiple sources
+      - Developed a PE data to KG converter
+      - Participated in sourcing for 3 deals, and outreach
+    from: "2024 Jan."
+    to: "2024 Aug."
+    tags:
+      - Data Analysis
+      - Venture Capital
+      - Automation
+    location: Remote
+  - position: Strategy Analyst
+    company:
+      name: Deep Foundation
+      link: ""
+    product:
+      name: "RDF database and middleware"
+      link: ""
+    description:
+      - Created whitepapers and pitch decks
+      - Prepared market and product memos to steer the team
+      - Evaluated market hypotheses leading three MVP projects
+    from: "2022 Oct."
+    to: "2023 Oct."
+    tags:
+      - Strategy
+      - Market Analysis
+      - Product Management
+    location: Remote
+  - position: Co-founder
+    company:
+      name: Neuron
+      link: ""
+    product:
+      name: "Web3 yield-optimized vanilla options"
+      link: ""
+    description:
+      - Launched Web3 options platform, achieving $700K TVL on start
+      - Secured $200k in pre-seed funding
+      - Led a team of 4 in data-driven product development, incl. math modeling and visualization
+      - Grew Twitter audience from 200 to 7,000 (3,400% increase) in two months
+    from: "2021 Apr."
+    to: "2023 Sep."
+    tags:
+      - R&D
+      - Product Development
+      - Data Modeling
+      - Fundraising
+    location: Remote
+
+  - position: Business Analyst / Consultant
+    company:
+      name: Teamidea
+      link: ""
+    product:
+      name: "Early career (Consulting & Research)"
+      link: ""
+    description:
+      - Supported the remote launch of a MARS plant during COVID
+      - Developed business cases and pitch materials for 10+ projects
+      - Developed face recognition, supply optimization (voice-based) systems in Python
+      - Prepared & presented 30+ business cases and pitch decks
+    from: "2017 Jan."
+    to: "2020 Jan."
+    tags:
+      - Business Analysis
+      - Process Optimization
+      - Consulting
+    location: Moscow, Russia
+
+education:
+  - place:
+      name: NUST "MISIS"
+      link: "https://misis.ru"
+    degree: "MSc"
+    major: Engineering
+    track: Engineering
+    marks: 3.94
+    location: Haifa, Israel
+
+technical_expertise:
+  - name: Data Pipelines
+    level: 6
+  - name: Financial Modeling
+    level: 7
+  - name: Market Research
+    level: 6
+  - name: Investment Analysis
+    level: 6
+
+skills:
+  - Strategic Planning
+  - VC & Market Research
+  - Data Analysis
+  - Financial Modeling
+  - Valuation
+  - Due Diligence
+  - Data Visualization
+  - ETL
+  - Deal Sourcing
+  - Portfolio Management
+  - Market Sizing
+  - Competitive Analysis
+  - Pitchbook
+
+languages:
+  - name: English
+    level: 8
+  - name: Russian
+    level: 10
+  - name: Hebrew
+    level: 4
+  - name: French
+    level: 3
+  
+
+methodology:
+  - Strategic Planning
+  - Lean
+  - Design Thinking
+  - Kanban
+
+tools:
+  - Excel
+  - PowerBI
+  - Pitchbook
+  - Slack
+  - GitHub
+  - Jira/Linear
+  - Adobe Suite
+
+achievements:
+  - name: Volunteering
+    description: Team @ Maker Faire (Moscow, 2018-2019)
+  - name: Hobbies
+    description: Popular science (blogging + 15x4 talks), Hiking, Biochemistry, Agtech, Climatech, Alt Protein 
+  - name: Open Source
+    description: LiteLLM, FFMemes, Inference pipelines (incl. 90% cold start optimization)
