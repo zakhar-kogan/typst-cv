@@ -43,9 +43,7 @@
 
     == Skills
 
-    #for skill in configuration.skills [
-      • #skill
-    ]
+    #configuration.skills.join(( " • " ))
 
     == Languages
 
