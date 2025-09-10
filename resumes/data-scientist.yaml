@@ -14,8 +14,8 @@ contacts:
     url: https://teleogenic.com
     displayText: teleogenic.com
 
-position: Senior-track Data Scientist — Python, SQL, MLOps, Experimentation
-tagline: DS/ML engineer shipping LLM/NLP and analytics. Drove 60–70% time savings, launched a $700k TVL product. Expertise in building pipelines and driving data-informed decision-making.
+position: Data Scientist (LLMs • MLOps • Analytics)
+tagline: DS/ML engineer shipping LLM/NLP and analytics. Drove 60–70% time savings, launched a $700k TVL product. Expertise in building pipelines and driving data-informed decision-making. Interested in optimization, pricing and experimentation.
 
 jobs:
   - position: Research Assistant
@@ -27,13 +27,13 @@ jobs:
       link: https://dds.technion.ac.il/people/academic-staff/erez-karpas/
     description:
       - Extended conditional-effects formalism
-      - Evaluated 6 LLMs
+      - Evaluated 6 LLMs for a side project (OPML generation)
     from: "2023 Sep."
     to: "2024 Sep."
     tags: [Automated Planning, LLMs, Research]
     location: Haifa, Israel
 
-  - position: Associate (Data/ML) — Contract
+  - position: Associate (Data/ML) - Contract
     company:
       name: Lemma Capital
       link: ""
@@ -41,7 +41,7 @@ jobs:
       name: PE fund (late stage)
       link: ""
     description:
-      - Built automated ingestion for 1,000+ companies
+      - Built automated scraping + ingestion for 1,000+ companies
       - Reduced analyst time by 80%, memo 3h → 35m
       - Partnered with investors on sourcing for 3 deals
     from: "2024 Jan."
@@ -49,12 +49,12 @@ jobs:
     tags: [Python, SQL, ETL, Graph Modeling, LLMs]
     location: Remote
 
-  - position: Machine Learning Engineer
+  - position: ML Engineer - Internship
     company:
       name: MoovingON
       link: ""
     product:
-      name: Internship
+      name: Availability-as-a-Service in the cloud 
       link: ""
     description:
       - Deployed NLP incident-triage (FastAPI + Docker + RabbitMQ),
@@ -69,12 +69,12 @@ jobs:
       - Docker
     location: Israel
 
-  - position: Strategy Analyst (Part-time)
+  - position: Strategy Analyst - Part-time
     company:
       name: Deep Foundation
       link: ""
     product:
-      name: ""
+      name: "Graph DB and middleware"
       link: ""
     description:
       - Authored product whitepaper
@@ -93,8 +93,9 @@ jobs:
       link: ""
     description:
       - Launched options platform to $700k TVL
-      - Led a team of 4 in data-driven product development, incl. option pricing
       - Raised $200k pre-seed
+      - Co-led a team of 4 in data-driven product development
+      - Improved Black-Scholes model for option pricing
       - Grew Twitter audience 200→7,000 in 2 months
     from: "2021 Apr."
     to: "2023 Sep."
@@ -129,14 +130,11 @@ technical_expertise:
     level: 6
   - name: Docker
     level: 7
-  - name: PowerBI
+  - name: PyTorch
     level: 5
 
 skills:
-  - Python (pandas, numpy, PyTorch)
-  - SQL
-  - dbt/Airflow
-  - Docker
+  - Pandas, NumPy, Daft
   - FastAPI
   - Git
   - GCP/AWS
