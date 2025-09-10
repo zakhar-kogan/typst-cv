@@ -11,7 +11,7 @@
     (name: "website", link: configuration.contacts.website.url, display: configuration.contacts.website.displayText),
     (name: "github", link: configuration.contacts.github.url, display: configuration.contacts.github.displayText),
     (name: "linkedin", link: configuration.contacts.linkedin.url, display: configuration.contacts.linkedin.displayText),
-    // (name: "location", link: "", display: configuration.contacts.address)
+    (name: "location", link: "", display: configuration.contacts.location)
   ),
   tagline: (configuration.tagline),
   // objective: (configuration.objective),
@@ -69,9 +69,7 @@
     ]
     
     == Methodology
-    #for method in configuration.methodology [
-      • #method
-    ]
+    #configuration.methodology.join(( " • " ))
     
     // == Tools
     // #for tool in configuration.tools [

@@ -1,6 +1,6 @@
 contacts:
-  name: Zach Cohen
-  title: Default CV
+  name: Zakhar Kogan
+  title: Strategy Analyst
   email: zakhar@teleogenic.com
   address: "Haifa, Israel"
   location: Israel
@@ -14,15 +14,11 @@ contacts:
     url: https://teleogenic.com
     displayText: teleogenic.com
 
-position: Strategy Analyst
+position: Strategy | Investment Analyst
 tagline: Strategy analyst with 4+ years in data-driven decision-making and research, complemented by hands-on experience in venture capital and startup environments.
-
-# tagline: Data-driven professional with 3+ years of experience in data analysis, machine learning, and AI research
-
-# tagline: Expertise in building data pipelines, applying machine learning algorithms, and driving data-informed decision-making.
-      
+    
 jobs:
-  - position: Associate / Data analyst
+  - position: Data & Investment Analyst
     company:
       name: Lemma Capital
       link: ""
@@ -40,6 +36,23 @@ jobs:
       - Venture Capital
       - Automation
     location: Remote
+  - position: Research Assistant
+    company:
+      name: Technion
+      link: ""
+    product:
+      name: Automated planning
+      link: https://dds.technion.ac.il/people/academic-staff/erez-karpas/
+    description:
+      - Expanded the social laws' formalism with conditional effects
+      - Contributed to LLM selection, fine-tuning, and inference
+    from: "2023 Sep."
+    to: "2024 Sep."
+    tags:
+      - Automated Planning
+      - LLM Research
+      - Social Laws
+    location: Haifa, Israel
   - position: Strategy Analyst
     company:
       name: Deep Foundation
@@ -58,7 +71,7 @@ jobs:
       - Market Analysis
       - Product Management
     location: Remote
-  - position: Co-founder
+  - position: Product Manager | Data Scientist | Co-founder
     company:
       name: Neuron
       link: ""
@@ -107,7 +120,7 @@ education:
     major: Engineering
     track: Engineering
     marks: 3.94
-    location: Haifa, Israel
+    location: Moscow, Russia
 
 technical_expertise:
   - name: SQL
@@ -134,7 +147,7 @@ skills:
 
 languages:
   - name: English
-    level: 8
+    level: 9
   - name: Russian
     level: 10
   - name: Hebrew
@@ -165,3 +178,5 @@ achievements:
     description: Popular science (blogging + 15x4 talks), Hiking, Biochemistry, Agtech, Climatech, Alt Protein 
   - name: Open Source
     description: LiteLLM, FFMemes, Inference pipelines (incl. 90% cold start optimization)
+  - name: Science
+    description: Contributed to CayleyPy (pathfinding on extremely large graphs)

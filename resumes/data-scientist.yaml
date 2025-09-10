@@ -1,6 +1,6 @@
 contacts:
-  name: Zach Cohen
-  title: Data Scientist
+  name: Zakhar Kogan
+  title: Senior-track Data Scientist — Python, SQL, MLOps, Experimentation
   email: zakhar@teleogenic.com
   address: "Haifa, Israel"
   location: Israel
@@ -14,8 +14,8 @@ contacts:
     url: https://teleogenic.com
     displayText: teleogenic.com
 
-position: Data Scientist
-tagline: Eager to continue career with data-driven product development and research. Expertise in building pipelines and driving data-informed decision-making.
+position: Senior-track Data Scientist — Python, SQL, MLOps, Experimentation
+tagline: DS/ML engineer shipping LLM/NLP and analytics. Drove 60–70% time savings, launched a $700k TVL product. Expertise in building pipelines and driving data-informed decision-making.
 
 jobs:
   - position: Research Assistant
@@ -26,16 +26,14 @@ jobs:
       name: Automated planning
       link: https://dds.technion.ac.il/people/academic-staff/erez-karpas/
     description:
-      - Expanded the social laws' formalism with conditional effects
-      - Contributed to LLM selection, fine-tuning, and inference
+      - Extended conditional-effects formalism
+      - Evaluated 6 LLMs
     from: "2023 Sep."
     to: "2024 Sep."
-    tags:
-      - Automated Planning
-      - LLM Research
-      - Social Laws
+    tags: [Automated Planning, LLMs, Research]
     location: Haifa, Israel
-  - position: Associate / Data analyst
+
+  - position: Associate (Data/ML) — Contract
     company:
       name: Lemma Capital
       link: ""
@@ -43,16 +41,14 @@ jobs:
       name: PE fund (late stage)
       link: ""
     description:
-      - Automated gathering of >1000 companies' data from multiple sources
-      - Developed a PE data to KG converter
-      - Participated in sourcing for 3 deals, and outreach
+      - Built automated ingestion for 1,000+ companies
+      - Reduced analyst time by 80%, memo 3h → 35m
+      - Partnered with investors on sourcing for 3 deals
     from: "2024 Jan."
     to: "2024 Aug."
-    tags:
-      - Data Analysis
-      - Venture Capital
-      - Automation
+    tags: [Python, SQL, ETL, Graph Modeling, LLMs]
     location: Remote
+
   - position: Machine Learning Engineer
     company:
       name: MoovingON
@@ -61,9 +57,9 @@ jobs:
       name: Internship
       link: ""
     description:
-      - Improved incident assessment speed by 70% with an NLP module (90% accuracy)
-      - Authored MLOps pipeline (RabbitMQ, FastAPI, Docker-compose)
-      - Presented the project to the team, as well as "How ML works" with positive feedback
+      - Deployed NLP incident-triage (FastAPI + Docker + RabbitMQ),
+      - Improved incident assessment speed by 70% (90% accuracy)
+      - Presented the project + "How ML works" with positive feedback
     from: "2021 Dec."
     to: "2022 Apr."
     tags:
@@ -72,7 +68,23 @@ jobs:
       - FastAPI
       - Docker
     location: Israel
-  - position: R&D Lead & Co-founder
+
+  - position: Strategy Analyst (Part-time)
+    company:
+      name: Deep Foundation
+      link: ""
+    product:
+      name: ""
+      link: ""
+    description:
+      - Authored product whitepaper
+      - Led analytics for 3 MVPs
+    from: "2022 Oct."
+    to: "2023 Oct."
+    tags: [Analytics, Product, LLMs, CI/CD]
+    location: Remote
+
+  - position: Co-founder & Data Scientist
     company:
       name: Neuron
       link: ""
@@ -80,21 +92,29 @@ jobs:
       name: "Web3 yield-optimized vanilla options"
       link: ""
     description:
-      - Secured $200k in pre-seed funding
-      - Led a team of 4 in data-driven product development, incl. math modeling and visualization
-      - Grew Twitter audience from 200 to 7,000 (3,400% increase) in two months by crafting and executing a targeted science-content strategy
+      - Launched options platform to $700k TVL
+      - Led a team of 4 in data-driven product development, incl. option pricing
+      - Raised $200k pre-seed
+      - Grew Twitter audience 200→7,000 in 2 months
     from: "2021 Apr."
     to: "2023 Sep."
-    tags:
-      - R&D
-      - Product Development
-      - Data Modeling
-      - Fundraising
+    tags: [R&D, Optimization, Product, Modeling, Fundraising]
     location: Remote
+
+  - position: Business Analyst / Consultant
+    company: { name: TeamIdea, link: "" }
+    product: { name: Analytics & BI projects, link: "" }
+    description:
+      - Delivered analytics across 10+ projects (SAP/HANA, SQL, Python, Power BI)
+      - Delivered numerous market research, ideation and pitch deck projects
+    from: "2017 Jul."
+    to: "2020 Dec."
+    tags: [Analytics, SQL, BI, Process]
+    location: Moscow, Russia
 
 education:
   - place:
-      name: NUST "MISIS"
+      name: NUST "MISIS" (cum laude)
       link: "https://misis.ru"
     degree: "MSc"
     major: Engineering
@@ -111,20 +131,18 @@ technical_expertise:
     level: 7
   - name: PowerBI
     level: 5
-  - name: Tableau
-    level: 4
 
 skills:
-  - Data Analysis
-  - Machine Learning
-  - Data Visualization
-  - ETL
-  - Systems Engineering
-  - Microservices
-  - Strategic Planning
-  - System Design
-  - API & Message Queues
-  - Containerization
+  - Python (pandas, numpy, PyTorch)
+  - SQL
+  - dbt/Airflow
+  - Docker
+  - FastAPI
+  - Git
+  - GCP/AWS
+  - Model serving & monitoring
+  - A/B testing & causal
+  - Optimization
 
 languages:
   - name: English
@@ -152,7 +170,7 @@ tools:
 
 achievements:
   - name: Open Source
-    description: LiteLLM, FFMemes, Inference pipelines (incl. 90% cold start optimization)
+    description: CayleyPy, LiteLLM, FFMemes, Inference pipelines (incl. 90% cold start optimization)
   - name: Hobbies
     description: Popular science (blogging + 15x4 talks), Hiking, Biochemistry, Agtech, Climatech, Alt Protein 
   - name: Volunteering
