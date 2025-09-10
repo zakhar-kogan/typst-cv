@@ -24,11 +24,19 @@ jobs:
       run: make build
       shell: bash
     
-    - name: Committing updated resume
+    - name: Commit PDFs
       if: github.event_name == 'push'
       run: |
         git config --global user.name "Github Actions"
         git config --global user.email "github-actions@users.noreply.github.com"
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-        git commit -a -m "Updating resume.pdf after regeneration [skip ci]" || echo "No changes to commit"
-        git push
+        if compgen -G "output/*.pdf" > /dev/null; then
+          git add -f output/*.pdf
+        fi
+        if ! git diff --cached --quiet; then
+          git commit -m "Update PDFs [skip ci]"
+          git push
+        else
+          echo "No PDF changes to commit"
+        fi
+
